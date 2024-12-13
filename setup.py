@@ -26,7 +26,7 @@ requirements = [
     "numpy",
     "Pillow",
     "mock",
-    "torch",
+    "torch==1.13.0",
     "pytorch-lightning==1.8.6",
     "opencv-python",
     "parameterized",
