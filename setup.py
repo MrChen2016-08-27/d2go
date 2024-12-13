@@ -33,7 +33,8 @@ requirements = [
     # Downgrade the protobuf package to 3.20.x or lower, related:
     # https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates
     # https://github.com/protocolbuffers/protobuf/issues/10051
-    "protobuf==3.20.2",
+    # "protobuf==3.20.2",
+    "protobuf==4.21.6",
     "torchtnt",
 ]
 
