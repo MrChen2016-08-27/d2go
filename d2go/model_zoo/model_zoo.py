@@ -53,6 +53,7 @@ def get_config_file(config_path):
     cfg_file = pkg_resources.resource_filename(
         "d2go", os.path.join("configs", config_path)
     )
+    print(f"load cfg file path: {cfg_file}");
     if not os.path.exists(cfg_file):
         raise RuntimeError("{} not available in Model Zoo!".format(config_path))
     return cfg_file
